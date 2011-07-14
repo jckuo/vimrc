@@ -12,7 +12,7 @@ call pathogen#helptags()
 " General Settings
 
 set nocompatible	" not compatible with the old-fashion vi mode
-set bs=2		" allow backspacing over everything in insert mode
+"set bs=2		" allow backspacing over everything in insert mode
 set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set autoread		" auto read when file is changed from outside
@@ -38,7 +38,7 @@ if has("gui_running")	" GUI color and font settings
   colors moria
 else
 " terminal color settings
-  colors vgod
+  colors jckuo
 endif
 
 set clipboard=unnamed	" yank to the system register (*) by default
@@ -65,11 +65,11 @@ set t_vb=
 set tm=500
 
 " TAB setting{
-   set expandtab        "replace <TAB> with spaces
-   set softtabstop=3 
-   set shiftwidth=3 
+"   set expandtab        "replace <TAB> with spaces
+"   set softtabstop=3 
+"   set shiftwidth=3 
 
-   au FileType Makefile set noexpandtab
+"   au FileType Makefile set noexpandtab
 "}      							
 
 " status line {
